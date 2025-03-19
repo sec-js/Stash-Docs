@@ -4427,6 +4427,7 @@ GitHub sponsorship</a>
 <p>Returns a <code>boolean</code> which will be <code>true</code> if the components are loading.</p>
 <h3 id="loadablecomponents"><code>loadableComponents</code><a class="headerlink" href="#loadablecomponents" title="Permanent link">&para;</a></h3>
 <p>This namespace contains all of the components that may need to be loaded using the <code>loadComponents</code> method. Components are added to this namespace as needed. Please make a development request if a required component is not in this namespace.</p>
+<p>This component also includes coarse-grained entries for every lazily loaded import in the stock UI. If a component is not available in <code>components</code> when the page loads, it can be loaded using the coarse-grained entry. For example, <code>PerformerCard</code> can be loaded using <code>loadableComponents.Performers</code>.</p>
 <h3 id="patch"><code>patch</code><a class="headerlink" href="#patch" title="Permanent link">&para;</a></h3>
 <p>This namespace provides methods to patch components to change their behaviour.</p>
 <h4 id="pluginapipatchbefore"><code>PluginApi.patch.before</code><a class="headerlink" href="#pluginapipatchbefore" title="Permanent link">&para;</a></h4>
