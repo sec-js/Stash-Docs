@@ -16,9 +16,9 @@ Now, follow the installation instructions based on whether you [can use Docker](
 !!! note
     Running Stash without Docker is possible even if your NAS is Docker ready. It offers more control on your Stash instance startup. As an example, it allows you to store your porn collection in an Encrypted Shared Folder, and only run Stash when the Encrypted folder is Mounted (Decrypted).
 
-- Make sure [the Docker app is installed](https://blog.pavelsklenar.com/how-to-install-and-use-docker-on-synology/){:target="_blank"} and running correctly.
+- If you are using Synology 7.2 or higher, launch the [Container Manager app](https://kb.synology.com/en-global/DSM/help/ContainerManager/docker_desc?version=7){:target="_blank"}. Otherwise, make sure [the Docker app is installed](https://blog.pavelsklenar.com/how-to-install-and-use-docker-on-synology/){:target="_blank"} and running correctly.
 - [Search the registry for stash](https://hub.docker.com/r/stashapp/stash){:target="_blank"} and install.
-- Create a stash image with the following set up in 'Advanced Settings':
+- Create a stash image with the following configuration in 'Advanced Settings':
 
 ### "Volume Settings" section
 
